@@ -95,6 +95,7 @@ Fabulous Beasts S01(?=.*E(2[5-9]|3[0-4]).*ADWeb) => Fabulous Beasts S03 && S03 <
 记录
 
 #======老泰迪专属======
+(.*)\.(MyTVSuper)(\..*?-)(ADWeb)(.*) => \1\3\2@\4\5
 (.*)\.(CatchPlay)(\..*?-)(ADWeb)(.*) => \1\3\2@\4\5
 (.*)\.(CatchPlay)(\..*?-)(CHDWEB)(.*) => \1\3\2@\4\5
 (.*)\.(CatchPlay)(\..*?-)(HHWeb)(.*) => \1\3\2@\4\5
