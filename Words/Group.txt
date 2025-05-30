@@ -151,6 +151,7 @@ sxales
 魔穗字幕组
 
 #====老泰迪专属====
+MyTVSuper@ADWeb
 CatchPlay@ADWeb
 CatchPlay@CHDWEB
 CatchPlay@HHWeb
