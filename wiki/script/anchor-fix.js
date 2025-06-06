@@ -1,4 +1,3 @@
-<script>
 // console.log('✅ [Wiki.js Anchor Script v11] - 终极决战版脚本已加载。');
 
 /**
@@ -94,4 +93,3 @@ document.body.addEventListener('click', (e) => {
     history.pushState(null, null, link.hash);
   }
 }, true);
-</script>
