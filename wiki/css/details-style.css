@@ -1,10 +1,10 @@
 /* ----- 美化 <details> 和 <summary> ----- */
 .v-main .contents details {
-  margin: 1rem 0
+  margin: 1rem 0 !important;
 }
 
 .contents details {
-  margin: 1rem 0
+  margin: 1rem 0 !important;
 }
 
 /* <details> 标签整体容器样式 */
