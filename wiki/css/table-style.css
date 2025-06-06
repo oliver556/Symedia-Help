@@ -1,0 +1,41 @@
+/* 表格整体样式 */
+table {
+  width: 100%;
+  border-collapse: collapse
+}
+
+/* 表格单元格通用样式 (包括表头 th 和数据单元格 td) */
+table td,
+table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  vertical-align: top;
+  background-color: transparent!important
+}
+
+/* 表头单元格 (th) 特定样式 */
+table th {
+  background-color: #f5f5f5!important;
+  white-space: nowrap
+}
+
+/* 数据行 (tr) - 奇数行的单元格 (td) 样式 */
+table tbody tr:nth-child(odd) td {
+  background-color: #f5f5f5!important
+}
+
+/* 数据行 (tr) - 偶数行的单元格 (td) 样式 */
+table tbody tr:nth-child(2n) td {
+  background-color: #f0f0f0!important
+}
+
+/* 表格数据单元格 (td) 内的 <code> 标签样式 */
+table td code {
+  padding: 2px 4px;
+  border-radius: 4px
+}
+
+.v-main .contents table tr td {
+  border-right: 1px solid #ddd
+}
