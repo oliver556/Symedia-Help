@@ -1,4 +1,6 @@
 <script>
+// console.log('✅ [Wiki.js Anchor Script v11] - 终极决战版脚本已加载。');
+
 /**
  * 核心函数：展开并滚动
  * @param {string} targetId - 目标ID
@@ -12,8 +14,8 @@ function openAndScrollTo(targetId, source) {
     const scrollWithOffset = (element) => {
       // 最终执行滚动的函数
       const finalScroll = () => {
-        const navbarHeight = 64;  // 导航栏高度
-        const extraPadding = 20;  // 额外间隙
+        const navbarHeight = 64;  // 您的导航栏高度
+        const extraPadding = 20;  // 您期望的额外间隙
         const offset = navbarHeight + extraPadding;
         
         const elementPosition = element.getBoundingClientRect().top;
@@ -56,7 +58,7 @@ function openAndScrollTo(targetId, source) {
 document.addEventListener('DOMContentLoaded', () => {
   if (window.location.hash) {
     const targetId = decodeURIComponent(window.location.hash.substring(1));
-    // console.log(`[pageload] - 检测到锚点 #${targetId}。开始轮询查找元素...`);
+    console.log(`[pageload] - 检测到锚点 #${targetId}。开始轮询查找元素...`);
 
     let attempts = 0;
     const maxAttempts = 50; // 最多尝试5秒
