@@ -70,4 +70,90 @@ details summary:hover {
 details summary:focus-visible {
   box-shadow: 0 0 0 2px Highlight;
 }
+
 /* ----- 美化结束 ----- */
+
+/* ----- 美化 FAQ <details> 和 <summary> ----- */
+
+.faq-item-accordion {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+}
+
+.faq-item-accordion:last-child {
+  margin-bottom: 0;
+}
+
+.faq-question-accordion {
+  font-weight: 700;
+  font-size: 1.1em;
+  padding: 12px 15px;
+  cursor: pointer;
+  outline: 0; /* 移除点击时的默认轮廓 */
+  position: relative;
+  color: #333;
+}
+
+/* 自定义展开/收起图标 */
+.faq-question-accordion::-webkit-details-marker { /* Chrome/Safari */
+  display: none;
+}
+
+.faq-question-accordion::marker { /* Firefox (较新版本) and standard */
+  display: none;
+}
+
+.faq-question-accordion::before {
+  content: "Q: " !important;
+  font-weight: 700;
+  color: #007bff;
+  margin-right: 5px;
+}
+
+.faq-question-accordion::after { /* 展开/收起图标 */
+  content: '▼'; /* 收起时的图标 */
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: .8em;
+  color: #555;
+}
+
+.faq-item-accordion[open] > .faq-question-accordion::after {
+  content: '▲'; /* 展开时的图标 */
+}
+
+.faq-answer-accordion {
+  padding: 15px 15px 15px 25px; /* 调整内边距，确保与问题文字部分对齐 */
+  color: #555;
+  border-top: 1px dashed #ddd; /* 问题和答案之间的分隔 */
+  margin-left: 15px; /* 整体向右缩进一点，让 Q:A: 的层级感更强 */
+  margin-right: 15px; /* 为 A: 伪元素定位 */
+  position: relative; /* 为 A: 留出空间 */
+}
+
+.faq-answer-accordion::before { /* "A: " 标识 */
+  content: "A:";
+  position: absolute;
+  left: 0;
+  top: 15px; /* 调整A:的垂直位置，使其与答案内容对齐 */
+  font-weight: 700;
+  color: #28a745; /* "A:" 的颜色 */
+}
+
+/* 如果答案内有 Markdown 生成的 p 标签，确保它们正确显示 */
+.faq-answer-accordion p {
+  margin-top: 0;
+  margin-bottom: .5em;
+}
+.faq-answer-accordion p:last-child {
+  margin-bottom: 0;
+}
+.faq-answer-accordion ol,
+.faq-answer-accordion ul {
+  margin-top: .5em;
+  padding-left: 20px; /* 列表缩进 */
+}
