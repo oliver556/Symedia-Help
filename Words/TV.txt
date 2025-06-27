@@ -100,3 +100,6 @@ Fabulous Beasts S01(?=.*E(2[5-9]|3[0-4]).*ADWeb) => Fabulous Beasts S03 && S03 <
 
 #以法之名【观众】
 ^(以法之名.*)$ => \1-ADWeb
+
+#桃花映江山
+^(桃花映江山.*)$ => \1-ADWeb
