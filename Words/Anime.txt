@@ -505,3 +505,6 @@ cht&jpn => jptc
 # Extra集 屏蔽词
 \(Extra\d\)
 \(Extra #[0-9]*\)
+
+# 爱影斗罗大陆 憨憨源
+(斗罗大陆Ⅱ绝世唐门.*?\.AAC) => \1-HHWEB
