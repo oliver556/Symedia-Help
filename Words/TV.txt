@@ -115,3 +115,6 @@ Fabulous Beasts S01(?=.*E(2[5-9]|3[0-4]).*ADWeb) => Fabulous Beasts S03 && S03 <
 
 #焕羽【憨憨】
 ^(焕羽.*)$ => \1-HHWEB
+
+#五十公里桃花坞【憨憨】
+^(五十公里桃花坞.*)$ => \1-HHWEB
