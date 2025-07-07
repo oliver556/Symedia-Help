@@ -94,6 +94,9 @@ Fabulous Beasts S01(?=.*E(2[5-9]|3[0-4]).*ADWeb) => Fabulous Beasts S03 && S03 <
 直播会看
 记录
 
+#奇葩说
+U.Can.U.BiBi => {[tmdbid=93550;type=tv;]}
+
 #======爱影资源======
 #哈哈哈哈哈【观众】
 ^(哈哈哈哈哈.*)$ => \1-ADWeb
