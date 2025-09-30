@@ -480,7 +480,6 @@ Heaven's Lost Property Final：Eternal My Master => Heaven's Lost Property Final
 (?<=[\W_])DSNP(?=[\W_]) => Disney+
 (?<=(1080p|2160p)\.)Max\. => -MAX.
 (?<=(1080p|2160p)\.)iT\. => -iTunes.
-(?<=S\d{2}E\d{2}).+(?=(2160|1080)p.+NTb) =>  
 
 #辅助识别修正词
 #(\b[5-9]\b|\b[1-9][0-9]\b) \[ =>  E\1 [
