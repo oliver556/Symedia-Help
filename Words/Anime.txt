@@ -262,6 +262,9 @@ Pokemon.Best.Wishes.2010 => Pokemon.1998
 (?<=Pokemon.*?)E143 => S00E29
 (?<=Pokemon.*?)E144 => S00E32
 
+#海贼王 [枫雪动漫] 修正
+one_piece]\[(?=(1089|109[0-9]|11[0-9]{2}|1200)) => 海贼王{[tmdbid=37854;type=tv]} S22E\1
+
 #海贼王第22季（观众版本，仅用于追最新季的时候添加）
 One.Piece.S01(?=.*ADWeb) => One Piece S22
 
@@ -499,6 +502,3 @@ HEVC Main10P => x265
 \[CHS\_JP\]\(\w{8}\)
 chs&jpn => jpsc
 cht&jpn => jptc
-
-#海贼王 [枫雪动漫] 修正
-one_piece]\[(?=(1089|109[0-9]|11[0-9]{2}|1200)) => 海贼王{[tmdbid=37854;type=tv]} S22E\1
