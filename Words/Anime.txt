@@ -474,6 +474,7 @@ Heaven's Lost Property Final：Eternal My Master => Heaven's Lost Property Final
 (?i)\bSBSUB\b => 银色子弹字幕组
 (?i)\bNekomoe kisstan\b => 喵萌奶茶屋
 (?i)\bOPFansMaplesnow\b => OPFans枫雪动漫
+(?i)\bOpfans\b => OPFans枫雪动漫
 (?i)\bSakurato\b|樱都字幕组|桜都字幕组|桜都 => 桜都字幕组
 (?i)\bHaruhana\b => ❀拨雪寻春❀
 (?<=[\W_])CR(?=[\W_]) => Crunchyroll
