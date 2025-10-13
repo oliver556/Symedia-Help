@@ -79,6 +79,7 @@ TrollUHD
 VARYG
 VCB-Studio
 Viu
+WF
 Xeon晚生
 Xrip
 X酱
